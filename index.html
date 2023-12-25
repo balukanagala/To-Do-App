@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do-App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div class="box">
+            <h1>TO DO APP</h1>
+            <img src="to-do-app.jpg" alt="to-do-app-img" width="50px" height="50px">
+            <i>"Unlock your day with seamless productivity: Your to-dos, your way."</i>   
+            <input type="text" id="task" placeholder="Add Your Task :" autofocus onkeydown="if (event.key === 'Enter') addTask()">
+            <button id="Add" onclick="addTask()">Add</button>
+            <ul id="to-do"></ul>
+            <button id="clear" onclick="clearTasks()">ClearAll</button>
+        </div>
+    </main>
+    <script src="https://kit.fontawesome.com/bf520e6492.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
