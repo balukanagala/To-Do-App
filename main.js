@@ -7,7 +7,7 @@ function addTask(){
           let listItem=document.createElement("li");
           listItem.innerHTML=`
                ${task.value}
-               <i class="fas fa-times">
+               <i class="fa-solid fa-xmark"></i>
           `;
           toDo.appendChild(listItem)
           task.value=''
