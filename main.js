@@ -9,6 +9,7 @@ function addTask(){
                ${task.value}
                <i class="fa-solid fa-xmark"></i>
           `;
+          // fa-solid fa-xmark (font awesome) used for xmark
           toDo.appendChild(listItem)
           task.value=''
           listItem.addEventListener(
